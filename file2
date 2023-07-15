@@ -8,3 +8,5 @@ echo "Welcome to my channel webserver-1" >index.html
 yum install httpd -y
 service httpd start
 chkconfig httpd on
+service httpd start
+chkconfig httpd on
