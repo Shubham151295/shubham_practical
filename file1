@@ -5,3 +5,4 @@ service httpd start
 chkconfig httpd on
 cd /var/www/html
 echo "Welcome to my channel webserver-1" >index.html
+yum install httpd -y
